@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: Shop-{####}",
+ "creation": "2024-10-23 23:27:04.853111",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "shop_number",
+  "shop_name",
+  "location",
+  "airport",
+  "lease_status",
+  "tenant_information_column",
+  "name1",
+  "email",
+  "contact_number",
+  "section_break_hanq",
+  "rent_amount",
+  "column_break_hkwk",
+  "expiry_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "shop_number",
+   "fieldtype": "Data",
+   "label": "Shop Number"
+  },
+  {
+   "fieldname": "shop_name",
+   "fieldtype": "Data",
+   "label": "Shop Name"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "airport",
+   "fieldtype": "Link",
+   "label": "Airport",
+   "options": "Airport"
+  },
+  {
+   "fieldname": "lease_status",
+   "fieldtype": "Select",
+   "label": "Lease Status",
+   "options": "Available\nOccupied"
+  },
+  {
+   "fieldname": "tenant_information_column",
+   "fieldtype": "Column Break",
+   "label": "Tenant Information"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Phone",
+   "label": "Contact Number"
+  },
+  {
+   "fieldname": "section_break_hanq",
+   "fieldtype": "Section Break",
+   "label": "Contract Details"
+  },
+  {
+   "fieldname": "rent_amount",
+   "fieldtype": "Currency",
+   "label": "Rent Amount"
+  },
+  {
+   "fieldname": "column_break_hkwk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-30 10:05:31.106469",
+ "modified_by": "Administrator",
+ "module": "Shop Management",
+ "name": "Shop",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Light Blue",
+   "title": "Available"
+  },
+  {
+   "color": "Green",
+   "title": "Occupied"
+  }
+ ]
+}

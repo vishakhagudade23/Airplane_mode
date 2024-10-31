@@ -6,4 +6,7 @@ from frappe.model.document import Document
 
 
 class Airline(Document):
-	pass
+    pass
+	# def get_context(context):
+    # 	 context.script = "/assets/your_app/js/airline.js"
+
