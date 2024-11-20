@@ -1,0 +1,71 @@
+{% if doc.lease_status == "Available" %}
+<div class="shop-box">
+    <p class="shop-name"><strong>{{ doc.shop_name |e }}</strong></p>
+    <p class="shop-details">{{ doc.location }} | {{ doc.airport }}</p>
+    <p class="shop-status">Lease Status: <span class="status">{{ doc.lease_status }}</span></p>
+    <a href="/{{ doc.route |e }}" class="details-link">View Shop</a>
+</div>
+{% endif %}
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(135deg, #e8f0fe, #ffffff);
+        padding: 20px;
+    }
+
+    .shop-box {
+        background-color: #ffffff;
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 2px solid #007bff;
+        border-radius: 15px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .shop-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .shop-name {
+        font-size: 20px;
+        font-weight: bold;
+        color: #333333;
+    }
+
+    .shop-details {
+        font-size: 16px;
+        color: #555555;
+        margin-top: 5px;
+    }
+
+    .shop-status {
+        font-size: 14px;
+        margin-top: 8px;
+        color: #666666;
+    }
+
+    .status {
+        color: #28a745; /* Green for "Available" status */
+        font-weight: bold;
+    }
+
+    .details-link {
+        display: inline-block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #007bff;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+
+    .details-link:hover {
+        background-color: #0056b3;
+    }
+</style>

@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:Shop-{###}",
  "creation": "2024-10-23 23:44:21.669079",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -10,23 +11,30 @@
   "receipt_number",
   "column_break_hdgj",
   "payment_date",
-  "shop_name"
+  "shop_name",
+  "status"
  ],
  "fields": [
   {
    "fieldname": "rent_amount",
    "fieldtype": "Currency",
-   "label": "Rent Amount"
+   "in_list_view": 1,
+   "label": "Rent Amount",
+   "reqd": 1
   },
   {
    "fieldname": "tenant_name",
    "fieldtype": "Data",
-   "label": "Tenant Name"
+   "in_list_view": 1,
+   "label": "Tenant Name",
+   "reqd": 1
   },
   {
    "fieldname": "receipt_number",
    "fieldtype": "Data",
-   "label": "Receipt Number"
+   "in_list_view": 1,
+   "label": "Receipt Number",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_hdgj",
@@ -35,20 +43,31 @@
   {
    "fieldname": "payment_date",
    "fieldtype": "Date",
-   "label": "Payment Date"
+   "in_list_view": 1,
+   "label": "Payment Date",
+   "reqd": 1
   },
   {
    "fieldname": "shop_name",
-   "fieldtype": "Data",
-   "label": "Shop Name"
+   "fieldtype": "Link",
+   "label": "Shop Name",
+   "options": "Shop",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Paid\nPending\nOverdue"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-27 18:03:28.121071",
+ "modified": "2024-11-15 12:27:11.844590",
  "modified_by": "Administrator",
  "module": "Shop Management",
  "name": "Rent Payment",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

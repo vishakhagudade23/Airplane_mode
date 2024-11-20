@@ -1,12 +1,14 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_rename": 1,
  "autoname": "format: Shop-{####}",
  "creation": "2024-10-23 23:27:04.853111",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "shop_number",
+  "shop_details_section",
+  "physical_properties_column",
   "shop_name",
   "location",
   "airport",
@@ -15,38 +17,51 @@
   "name1",
   "email",
   "contact_number",
+  "rent_due_date",
   "section_break_hanq",
+  "commencement_date",
   "rent_amount",
   "column_break_hkwk",
-  "expiry_date"
+  "expiry_date",
+  "shop_number",
+  "section_break_abfn",
+  "is_published",
+  "column_break_phwo",
+  "route"
  ],
  "fields": [
   {
    "fieldname": "shop_number",
    "fieldtype": "Data",
-   "label": "Shop Number"
+   "label": "Shop Number",
+   "reqd": 1
   },
   {
    "fieldname": "shop_name",
    "fieldtype": "Data",
-   "label": "Shop Name"
+   "label": "Shop Name",
+   "reqd": 1
   },
   {
    "fieldname": "location",
    "fieldtype": "Data",
-   "label": "Location"
+   "label": "Location",
+   "reqd": 1
   },
   {
    "fieldname": "airport",
    "fieldtype": "Link",
    "label": "Airport",
-   "options": "Airport"
+   "options": "Airport",
+   "reqd": 1
   },
   {
    "fieldname": "lease_status",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Lease Status",
-   "options": "Available\nOccupied"
+   "options": "Available\nOccupied",
+   "reqd": 1
   },
   {
    "fieldname": "tenant_information_column",
@@ -56,12 +71,14 @@
   {
    "fieldname": "name1",
    "fieldtype": "Data",
-   "label": "Name"
+   "label": "Name",
+   "reqd": 1
   },
   {
    "fieldname": "email",
    "fieldtype": "Data",
-   "label": "Email"
+   "label": "Email",
+   "reqd": 1
   },
   {
    "fieldname": "contact_number",
@@ -76,7 +93,8 @@
   {
    "fieldname": "rent_amount",
    "fieldtype": "Currency",
-   "label": "Rent Amount"
+   "label": "Rent Amount",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_hkwk",
@@ -85,12 +103,55 @@
   {
    "fieldname": "expiry_date",
    "fieldtype": "Date",
-   "label": "Expiry Date"
+   "label": "Expiry Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "commencement_date",
+   "fieldtype": "Date",
+   "label": "Commencement Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "physical_properties_column",
+   "fieldtype": "Column Break",
+   "label": "Physical Properties"
+  },
+  {
+   "fieldname": "shop_details_section",
+   "fieldtype": "Section Break",
+   "label": "Shop Details"
+  },
+  {
+   "fieldname": "section_break_abfn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "Is Published?"
+  },
+  {
+   "fieldname": "column_break_phwo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "fieldname": "rent_due_date",
+   "fieldtype": "Date",
+   "label": "Rent Due Date"
   }
  ],
+ "has_web_view": 1,
  "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
  "links": [],
- "modified": "2024-10-30 10:05:31.106469",
+ "modified": "2024-11-15 12:26:05.918421",
  "modified_by": "Administrator",
  "module": "Shop Management",
  "name": "Shop",
@@ -110,6 +171,8 @@
    "write": 1
   }
  ],
+ "route": "shops",
+ "show_title_field_in_link": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [
@@ -121,5 +184,6 @@
    "color": "Green",
    "title": "Occupied"
   }
- ]
+ ],
+ "title_field": "shop_name"
 }
