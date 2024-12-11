@@ -7,26 +7,7 @@ import random
 from frappe.model.document import Document
 
 class AirplaneTicket(Document):
-    def validate(self):
-
-        total_addon_amount = 0
-        for addon in self.add_ons:
-            total_addon_amount += addon.amount
-
-        self.total_amount = total_addon_amount + self.flight_price
-
-        
-
-        unique_add_ons = {}
-        
-        for item in self.add_ons:
-            if item.item in unique_add_ons:
-                frappe.throw("Add-on {0} has already been added. Duplicates are not allowed.".format(item.item))
-            else:
-                unique_add_ons[item.item] = item
-
-        self.add_ons = list(unique_add_ons.values())
-        
+    
     def before_submit(self):
         if self.status != "Boarded":
             frappe.throw("Cannot submit Airplane Ticket document. Status must be 'Boarded'.")
@@ -50,3 +31,24 @@ class AirplaneTicket(Document):
         
         if tickets_count >= capacity:
             frappe.throw(f"This flight is full. Cannot book more tickets for this flight.")
+
+
+
+    def validate(self):
+
+        total_addon_amount = 0
+        for addon in self.add_ons:
+            total_addon_amount += addon.amount
+
+        self.total_amount = total_addon_amount + self.flight_price
+
+
+        unique_add_ons = {}
+        
+        for item in self.add_ons:
+            if item.item in unique_add_ons:
+                frappe.throw("Add-on {0} has already been added. Duplicates are not allowed.".format(item.item))
+            else:
+                unique_add_ons[item.item] = item
+
+        self.add_ons = list(unique_add_ons.values())

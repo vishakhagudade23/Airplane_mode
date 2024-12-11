@@ -233,3 +233,9 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+# doc_events = {
+#     "Shop": {
+#         "before_save": "airplane_mode.shop_management.doctype.shop.shop.set_default_rent_amount"
+#     }
+# }

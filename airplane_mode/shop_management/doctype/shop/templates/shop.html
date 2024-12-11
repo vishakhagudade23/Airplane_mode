@@ -1,7 +1,12 @@
 {% extends "templates/web.html" %}
 
 {% block page_content %}
-<h1>{{ title |e }}</h1>
+<h1>{{ title |e }} - {{ doc.shop_number }}</h1>
+<h3> shop is available for lease </h3><br>
+<h5> {{ doc.airport }} </h5>
+<h6>{{ doc.location }}</h6>
+<h6> Shop Number: {{ doc.shop_number }}</h6>
+
 {% endblock %}
 
 <!-- this is a sample default web page template -->

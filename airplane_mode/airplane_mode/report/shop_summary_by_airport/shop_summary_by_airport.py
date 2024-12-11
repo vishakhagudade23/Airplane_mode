@@ -68,18 +68,16 @@ def get_data(filters):
     """, as_dict=1)
     
     for airport in airports:
-        # Get total shops count
-        total_shops = frappe.db.count("Shop", 
+    
+        total_shops = frappe.db.count("Shop",
             filters={"airport": airport.name})
             
-        # Get available shops count
         available_shops = frappe.db.count("Shop", 
             filters={
                 "airport": airport.name,
                 "lease_status": "Available"
             })
             
-        # Get occupied shops count
         occupied_shops = frappe.db.count("Shop", 
             filters={
                 "airport": airport.name,
@@ -89,7 +87,6 @@ def get_data(filters):
         # Calculate occupancy rate
         occupancy_rate = round((occupied_shops / total_shops * 100), 2) if total_shops else 0
             
-        # Append data
         data.append({
             "airport": airport.name,
             "total_shops": total_shops,

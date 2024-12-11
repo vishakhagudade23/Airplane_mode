@@ -19,8 +19,7 @@
    "fieldname": "rent_amount",
    "fieldtype": "Currency",
    "in_list_view": 1,
-   "label": "Rent Amount",
-   "reqd": 1
+   "label": "Rent Amount"
   },
   {
    "fieldname": "tenant_name",
@@ -63,7 +62,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-11-15 12:27:11.844590",
+ "modified": "2024-11-22 11:59:21.647260",
  "modified_by": "Administrator",
  "module": "Shop Management",
  "name": "Rent Payment",

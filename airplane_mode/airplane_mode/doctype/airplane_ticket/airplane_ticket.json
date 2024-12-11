@@ -153,13 +153,14 @@
    "allow_on_submit": 1,
    "fieldname": "gate_number",
    "fieldtype": "Data",
-   "label": "Gate Number"
+   "label": "Gate Number",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-10-23 23:15:13.511326",
+ "modified": "2024-11-22 10:57:52.875021",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Ticket",

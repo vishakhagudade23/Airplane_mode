@@ -83,7 +83,8 @@
   {
    "fieldname": "contact_number",
    "fieldtype": "Phone",
-   "label": "Contact Number"
+   "label": "Contact Number",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_hanq",
@@ -93,8 +94,7 @@
   {
    "fieldname": "rent_amount",
    "fieldtype": "Currency",
-   "label": "Rent Amount",
-   "reqd": 1
+   "label": "Rent Amount"
   },
   {
    "fieldname": "column_break_hkwk",
@@ -144,14 +144,15 @@
   {
    "fieldname": "rent_due_date",
    "fieldtype": "Date",
-   "label": "Rent Due Date"
+   "label": "Rent Due Date",
+   "reqd": 1
   }
  ],
  "has_web_view": 1,
  "index_web_pages_for_search": 1,
  "is_published_field": "is_published",
  "links": [],
- "modified": "2024-11-15 12:26:05.918421",
+ "modified": "2024-11-22 11:36:38.384551",
  "modified_by": "Administrator",
  "module": "Shop Management",
  "name": "Shop",
