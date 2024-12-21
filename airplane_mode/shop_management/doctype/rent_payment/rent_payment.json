@@ -19,7 +19,8 @@
    "fieldname": "rent_amount",
    "fieldtype": "Currency",
    "in_list_view": 1,
-   "label": "Rent Amount"
+   "label": "Rent Amount",
+   "reqd": 1
   },
   {
    "fieldname": "tenant_name",
@@ -62,7 +63,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-11-22 11:59:21.647260",
+ "modified": "2024-12-13 23:58:15.004756",
  "modified_by": "Administrator",
  "module": "Shop Management",
  "name": "Rent Payment",
@@ -78,6 +79,19 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Airport Authority Personnel",
+   "select": 1,
    "share": 1,
    "write": 1
   }

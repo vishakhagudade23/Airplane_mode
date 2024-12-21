@@ -1,14 +1,6 @@
 # Copyright (c) 2024, Vishakha Gudade and contributors
 # For license information, please see license.txt
 
-# import frappe
-
-# def execute(filters=None):
-# 	columns, data = [], []
-# 	return columns, data
-
-
-from __future__ import unicode_literals
 import frappe
 from frappe import _
 
@@ -56,7 +48,6 @@ def get_columns():
 def get_data(filters):
     data = []
     
-    # Get list of airports (with filter if provided)
     conditions = ""
     if filters and filters.get("airport"):
         conditions = f" WHERE name = '{filters.get('airport')}'"
@@ -84,7 +75,7 @@ def get_data(filters):
                 "lease_status": "Occupied"
             })
             
-        # Calculate occupancy rate
+    
         occupancy_rate = round((occupied_shops / total_shops * 100), 2) if total_shops else 0
             
         data.append({

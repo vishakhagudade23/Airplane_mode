@@ -24,7 +24,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-10-31 18:36:33.503236",
+ "modified": "2024-12-13 23:59:36.298663",
  "modified_by": "Administrator",
  "module": "Shop Management",
  "name": "Global Settings",
@@ -37,6 +37,16 @@
    "print": 1,
    "read": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Airport Authority Personnel",
    "share": 1,
    "write": 1
   }
