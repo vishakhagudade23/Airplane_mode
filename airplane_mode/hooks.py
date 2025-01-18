@@ -9,7 +9,9 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 
-fixtures=["Airport"]
+# fixtures=["Airport"]
+fixtures=["Airplane Ticket Add-on Type"]
+
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/airplane_mode/css/airplane_mode.css"

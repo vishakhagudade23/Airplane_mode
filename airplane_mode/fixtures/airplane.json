@@ -1,0 +1,82 @@
+[
+ {
+  "airline": "AirAsia",
+  "capacity": 150,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Embraer E195",
+  "modified": "2024-09-26 22:19:11.115088",
+  "name": "AirAsia-061"
+ },
+ {
+  "airline": "IndiGo",
+  "capacity": 300,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Boeing 734",
+  "modified": "2024-10-18 14:32:34.666931",
+  "name": "IndiGo-085"
+ },
+ {
+  "airline": "SpiceJet",
+  "capacity": 285,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Airbus A32neo",
+  "modified": "2024-09-28 00:59:29.868072",
+  "name": "SpiceJet-074"
+ },
+ {
+  "airline": "GoAir",
+  "capacity": 250,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Embraer E190",
+  "modified": "2024-10-16 23:01:32.943122",
+  "name": "GoAir-063"
+ },
+ {
+  "airline": "Vistara",
+  "capacity": 100,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Airbus A320",
+  "modified": "2024-09-26 22:17:10.808079",
+  "name": "Vistara-059"
+ },
+ {
+  "airline": "JetAirways",
+  "capacity": 180,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "ATR 72-600 ",
+  "modified": "2024-10-16 23:02:15.694347",
+  "name": "JetAirways-064"
+ },
+ {
+  "airline": "AirIndia",
+  "capacity": 205,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Boeing 738",
+  "modified": "2024-09-26 22:20:34.502925",
+  "name": "AirIndia-062"
+ },
+ {
+  "airline": "IndiGo",
+  "capacity": 100,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "Boeing 737",
+  "modified": "2024-10-16 15:12:05.598066",
+  "name": "IndiGo-060"
+ }
+]

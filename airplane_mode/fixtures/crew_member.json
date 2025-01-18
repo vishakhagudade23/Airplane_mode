@@ -1,0 +1,50 @@
+[
+ {
+  "contact_number": "+91-9511835214",
+  "crew_name": "Alina usmani",
+  "docstatus": 0,
+  "doctype": "Crew Member",
+  "modified": "2024-11-30 00:38:36.427064",
+  "name": "1kgpo9hu30",
+  "parent": "AirIndia-062-09-2024-00076",
+  "parentfield": "crew_member",
+  "parenttype": "Airplane Flight",
+  "position": "Flight Attendant"
+ },
+ {
+  "contact_number": "+91-7887425784",
+  "crew_name": "Kartik Shukla",
+  "docstatus": 0,
+  "doctype": "Crew Member",
+  "modified": "2024-11-30 00:38:36.427064",
+  "name": "1f730d0imi",
+  "parent": "AirIndia-062-09-2024-00076",
+  "parentfield": "crew_member",
+  "parenttype": "Airplane Flight",
+  "position": "Pilot"
+ },
+ {
+  "contact_number": "+91-9511835214",
+  "crew_name": "Rushabh sharma",
+  "docstatus": 0,
+  "doctype": "Crew Member",
+  "modified": "2024-11-30 00:38:36.427064",
+  "name": "1l451gjlp5",
+  "parent": "AirIndia-062-09-2024-00076",
+  "parentfield": "crew_member",
+  "parenttype": "Airplane Flight",
+  "position": "Security Officer"
+ },
+ {
+  "contact_number": "+91-9167543456",
+  "crew_name": "Vishakha Gudade",
+  "docstatus": 0,
+  "doctype": "Crew Member",
+  "modified": "2024-11-30 00:38:36.427064",
+  "name": "9b0cc8fg0u",
+  "parent": "AirIndia-062-09-2024-00076",
+  "parentfield": "crew_member",
+  "parenttype": "Airplane Flight",
+  "position": "Co-pilot"
+ }
+]

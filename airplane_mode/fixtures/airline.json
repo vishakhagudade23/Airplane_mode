@@ -1,0 +1,72 @@
+[
+ {
+  "customer_care_number": "7865532342",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 1990,
+  "headquarters": "Mumbai",
+  "modified": "2024-09-26 22:05:58.815048",
+  "name": "AirIndia",
+  "website": null
+ },
+ {
+  "customer_care_number": "9511835214",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 1999,
+  "headquarters": "Singapore",
+  "modified": "2024-10-18 16:00:00.778055",
+  "name": "AirAsia",
+  "website": ""
+ },
+ {
+  "customer_care_number": "8765457652",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 1996,
+  "headquarters": "Pune",
+  "modified": "2024-09-26 22:08:21.439087",
+  "name": "Vistara",
+  "website": null
+ },
+ {
+  "customer_care_number": "6786534252",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 2002,
+  "headquarters": "Delhi",
+  "modified": "2024-09-26 22:06:45.158711",
+  "name": "SpiceJet",
+  "website": null
+ },
+ {
+  "customer_care_number": "7654324567",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 1998,
+  "headquarters": "Lahor",
+  "modified": "2024-09-26 22:07:39.489429",
+  "name": "GoAir",
+  "website": null
+ },
+ {
+  "customer_care_number": "4689876549",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 1989,
+  "headquarters": "Bangalore",
+  "modified": "2024-10-18 16:00:09.382288",
+  "name": "JetAirways",
+  "website": ""
+ },
+ {
+  "customer_care_number": "8973649864",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "founding_year": 1980,
+  "headquarters": "Lacknow",
+  "modified": "2024-10-18 16:00:52.785684",
+  "name": "IndiGo",
+  "website": "https://www.goindigo.in/"
+ }
+]

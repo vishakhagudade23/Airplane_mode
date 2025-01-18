@@ -1,0 +1,44 @@
+[
+ {
+  "description": "Purchase internet access during the flight.",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2024-09-25 19:35:37.849603",
+  "name": "Wi-Fi Access"
+ },
+ {
+  "description": "Add Priority Boarding for ₹250",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2024-09-25 19:38:57.385674",
+  "name": "Priority Boarding"
+ },
+ {
+  "description": "Select a seat for ₹500 (extra legroom)",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2024-09-25 15:58:32.571735",
+  "name": "Seat Selection"
+ },
+ {
+  "description": "Add travel insurance to cover trip cancellations, delays, lost baggage, or medical emergencies.",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2024-09-25 19:36:18.498630",
+  "name": "Travel Insurance"
+ },
+ {
+  "description": "Faster baggage handling and delivery upon arrival.",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2024-09-25 19:34:10.824646",
+  "name": "Baggage"
+ },
+ {
+  "description": "Order specific meal types (vegetarian, vegan, halal, kosher, etc.).",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2024-09-25 19:35:03.335420",
+  "name": "Special Meals"
+ }
+]

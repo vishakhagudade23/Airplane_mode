@@ -1,0 +1,112 @@
+[
+ {
+  "amount": 400.0,
+  "docstatus": 1,
+  "doctype": "Airplane Ticket Add-on Item",
+  "item": "Baggage",
+  "modified": "2024-09-27 12:08:27.451087",
+  "name": "79u3ag7d00",
+  "parent": "Airline-038-QR 557-to-IG5667-056",
+  "parentfield": "add_ons",
+  "parenttype": "Airplane Ticket"
+ },
+ {
+  "amount": 200.0,
+  "docstatus": 1,
+  "doctype": "Airplane Ticket Add-on Item",
+  "item": "Seat Selection",
+  "modified": "2024-09-28 21:33:19.143118",
+  "name": "n0t8u2qu8r",
+  "parent": "AirIndia-062-09-2024-00068-QR 557-to-6E 859-077",
+  "parentfield": "add_ons",
+  "parenttype": "Airplane Ticket"
+ },
+ {
+  "amount": 500.0,
+  "docstatus": 1,
+  "doctype": "Airplane Ticket Add-on Item",
+  "item": "Travel Insurance",
+  "modified": "2024-09-28 21:34:00.614009",
+  "name": "n1f8v9ad6d",
+  "parent": "JetAirways-064-09-2024-00071-1-MAA-to-BOM-078",
+  "parentfield": "add_ons",
+  "parenttype": "Airplane Ticket"
+ },
+ {
+  "amount": 180.0,
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Item",
+  "item": "Wi-Fi Access",
+  "modified": "2024-09-28 10:36:07.448405",
+  "name": "n4rqr051te",
+  "parent": "SpiceJet-074-09-2024-00075-CNN-to-BLR-079",
+  "parentfield": "add_ons",
+  "parenttype": "Airplane Ticket"
+ },
+ {
+  "amount": 300.0,
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Item",
+  "item": "Priority Boarding",
+  "modified": "2024-09-28 21:21:45.150252",
+  "name": "2v5btetu71",
+  "parent": "IndiGo-060-09-2024-00069-1-HYD-to-DEL-080",
+  "parentfield": "add_ons",
+  "parenttype": "Airplane Ticket"
+ },
+ {
+  "amount": 350.0,
+  "docstatus": 1,
+  "doctype": "Airplane Ticket Add-on Item",
+  "item": "Special Meals",
+  "modified": "2024-10-16 16:05:29.183367",
+  "name": "350tifo6t6",
+  "parent": "JetAirways-064-09-2024-00071-1-MAA-to-BOM-081",
+  "parentfield": "add_ons",
+  "parenttype": "Airplane Ticket"
+ },
+ {
+  "amount": 300.0,
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Item",
+  "item": "Seat Selection",
+  "modified": "2024-12-28 14:55:55.755468",
+  "name": "lg439ami3o",
+  "parent": "GoAir-063-09-2024-00073-QR 557-to-CH3566-084",
+  "parentfield": "add_ons",
+  "parenttype": "Airplane Ticket"
+ },
+ {
+  "amount": 250.0,
+  "docstatus": 1,
+  "doctype": "Airplane Ticket Add-on Item",
+  "item": "Special Meals",
+  "modified": "2024-09-27 12:08:27.451087",
+  "name": "tr0k1sgaa0",
+  "parent": "Airline-038-QR 557-to-IG5667-056",
+  "parentfield": "add_ons",
+  "parenttype": "Airplane Ticket"
+ },
+ {
+  "amount": 50.0,
+  "docstatus": 1,
+  "doctype": "Airplane Ticket Add-on Item",
+  "item": "Wi-Fi Access",
+  "modified": "2024-10-16 16:05:29.183367",
+  "name": "i1frk3qfq4",
+  "parent": "JetAirways-064-09-2024-00071-1-MAA-to-BOM-081",
+  "parentfield": "add_ons",
+  "parenttype": "Airplane Ticket"
+ },
+ {
+  "amount": 799.0,
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Item",
+  "item": "Baggage",
+  "modified": "2024-12-28 14:55:55.755468",
+  "name": "rab6pii7ug",
+  "parent": "GoAir-063-09-2024-00073-QR 557-to-CH3566-084",
+  "parentfield": "add_ons",
+  "parenttype": "Airplane Ticket"
+ }
+]

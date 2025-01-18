@@ -1,0 +1,269 @@
+[
+ {
+  "add_ons": [],
+  "amended_from": null,
+  "departure_date": "2024-09-05",
+  "departure_time": "6:59:44",
+  "destination_airport_code": "6E 859",
+  "docstatus": 1,
+  "doctype": "Airplane Ticket",
+  "duration_of_flight": 706580.0,
+  "flight": "Airline-039",
+  "flight_price": 0.0,
+  "gate_number": null,
+  "modified": "2024-09-15 12:18:04.743023",
+  "name": "Airline-039-CH3566-to-6E 859-041",
+  "passenger": "1",
+  "seat": null,
+  "source_airport_code": "CH3566",
+  "status": "Booked",
+  "total_amount": 0.0
+ },
+ {
+  "add_ons": [],
+  "amended_from": null,
+  "departure_date": "2024-09-28",
+  "departure_time": "12:19:33",
+  "destination_airport_code": "CH3566",
+  "docstatus": 1,
+  "doctype": "Airplane Ticket",
+  "duration_of_flight": 530130.0,
+  "flight": "Airline-040",
+  "flight_price": 0.0,
+  "gate_number": null,
+  "modified": "2024-09-15 12:20:36.111619",
+  "name": "Airline-040-QR 557-to-CH3566-050",
+  "passenger": "3",
+  "seat": null,
+  "source_airport_code": "QR 557",
+  "status": "Checked-In",
+  "total_amount": 0.0
+ },
+ {
+  "add_ons": [],
+  "amended_from": null,
+  "departure_date": "2024-09-14",
+  "departure_time": "20:21:32",
+  "destination_airport_code": "6E 859",
+  "docstatus": 1,
+  "doctype": "Airplane Ticket",
+  "duration_of_flight": 1224128.0,
+  "flight": "Airline-038",
+  "flight_price": 0.0,
+  "gate_number": null,
+  "modified": "2024-09-15 12:22:12.619459",
+  "name": "Airline-038-IG5667-to-6E 859-051",
+  "passenger": "4",
+  "seat": null,
+  "source_airport_code": "IG5667",
+  "status": "Boarded",
+  "total_amount": 0.0
+ },
+ {
+  "add_ons": [
+   {
+    "amount": 400.0,
+    "item": "Baggage"
+   },
+   {
+    "amount": 250.0,
+    "item": "Special Meals"
+   }
+  ],
+  "amended_from": null,
+  "departure_date": "2024-09-04",
+  "departure_time": "23:04:55",
+  "destination_airport_code": "IG5667",
+  "docstatus": 1,
+  "doctype": "Airplane Ticket",
+  "duration_of_flight": 2473260.0,
+  "flight": "AirIndia-062-09-2024-00068",
+  "flight_price": 8000.0,
+  "gate_number": null,
+  "modified": "2024-09-27 12:08:27.451087",
+  "name": "Airline-038-QR 557-to-IG5667-056",
+  "passenger": "5",
+  "seat": "A12",
+  "source_airport_code": "QR 557",
+  "status": "Boarded",
+  "total_amount": 8650.0
+ },
+ {
+  "add_ons": [],
+  "amended_from": null,
+  "departure_date": "2024-09-19",
+  "departure_time": "4:32:23",
+  "destination_airport_code": "QR 557",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket",
+  "duration_of_flight": 1328520.0,
+  "flight": "Vistara-059-09-2024-00070",
+  "flight_price": 8000.0,
+  "gate_number": null,
+  "modified": "2024-09-27 12:37:23.735258",
+  "name": "Vistara-059-09-2024-00070-IG5667-to-QR 557-072",
+  "passenger": "6",
+  "seat": "30B",
+  "source_airport_code": "IG5667",
+  "status": "Booked",
+  "total_amount": 0.0
+ },
+ {
+  "add_ons": [
+   {
+    "amount": 200.0,
+    "item": "Seat Selection"
+   }
+  ],
+  "amended_from": null,
+  "departure_date": "2024-09-04",
+  "departure_time": "23:04:55",
+  "destination_airport_code": "6E 859",
+  "docstatus": 1,
+  "doctype": "Airplane Ticket",
+  "duration_of_flight": 2473260.0,
+  "flight": "AirIndia-062-09-2024-00068",
+  "flight_price": 9000.0,
+  "gate_number": null,
+  "modified": "2024-09-28 21:33:19.143118",
+  "name": "AirIndia-062-09-2024-00068-QR 557-to-6E 859-077",
+  "passenger": "9",
+  "seat": "56E",
+  "source_airport_code": "QR 557",
+  "status": "Boarded",
+  "total_amount": 9200.0
+ },
+ {
+  "add_ons": [
+   {
+    "amount": 500.0,
+    "item": "Travel Insurance"
+   }
+  ],
+  "amended_from": null,
+  "departure_date": "2024-09-28",
+  "departure_time": "12:35:21",
+  "destination_airport_code": "BOM",
+  "docstatus": 1,
+  "doctype": "Airplane Ticket",
+  "duration_of_flight": 1159320.0,
+  "flight": "JetAirways-064-09-2024-00071-1",
+  "flight_price": 12000.0,
+  "gate_number": null,
+  "modified": "2024-09-28 21:34:00.614009",
+  "name": "JetAirways-064-09-2024-00071-1-MAA-to-BOM-078",
+  "passenger": "8",
+  "seat": "18B",
+  "source_airport_code": "MAA",
+  "status": "Boarded",
+  "total_amount": 12500.0
+ },
+ {
+  "add_ons": [
+   {
+    "amount": 180.0,
+    "item": "Wi-Fi Access"
+   }
+  ],
+  "amended_from": null,
+  "departure_date": "2024-09-10",
+  "departure_time": "1:01:01",
+  "destination_airport_code": "BLR",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket",
+  "duration_of_flight": 1771200.0,
+  "flight": "SpiceJet-074-09-2024-00075",
+  "flight_price": 15000.0,
+  "gate_number": null,
+  "modified": "2024-09-28 10:36:07.448405",
+  "name": "SpiceJet-074-09-2024-00075-CNN-to-BLR-079",
+  "passenger": "7",
+  "seat": "38C",
+  "source_airport_code": "CNN",
+  "status": "Booked",
+  "total_amount": 15180.0
+ },
+ {
+  "add_ons": [
+   {
+    "amount": 300.0,
+    "item": "Priority Boarding"
+   }
+  ],
+  "amended_from": null,
+  "departure_date": "2024-09-26",
+  "departure_time": "4:04:55",
+  "destination_airport_code": "DEL",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket",
+  "duration_of_flight": 1065780.0,
+  "flight": "IndiGo-060-09-2024-00069-1",
+  "flight_price": 7000.0,
+  "gate_number": null,
+  "modified": "2024-09-28 21:21:45.150252",
+  "name": "IndiGo-060-09-2024-00069-1-HYD-to-DEL-080",
+  "passenger": "6",
+  "seat": "84D",
+  "source_airport_code": "HYD",
+  "status": "Booked",
+  "total_amount": 7300.0
+ },
+ {
+  "add_ons": [
+   {
+    "amount": 350.0,
+    "item": "Special Meals"
+   },
+   {
+    "amount": 50.0,
+    "item": "Wi-Fi Access"
+   }
+  ],
+  "amended_from": null,
+  "departure_date": "2024-09-28",
+  "departure_time": "12:35:21",
+  "destination_airport_code": "BOM",
+  "docstatus": 1,
+  "doctype": "Airplane Ticket",
+  "duration_of_flight": 1159320.0,
+  "flight": "JetAirways-064-09-2024-00071-1",
+  "flight_price": 6000.0,
+  "gate_number": null,
+  "modified": "2024-10-16 16:05:29.183367",
+  "name": "JetAirways-064-09-2024-00071-1-MAA-to-BOM-081",
+  "passenger": "6",
+  "seat": "13A",
+  "source_airport_code": "MAA",
+  "status": "Boarded",
+  "total_amount": 6400.0
+ },
+ {
+  "add_ons": [
+   {
+    "amount": 300.0,
+    "item": "Seat Selection"
+   },
+   {
+    "amount": 799.0,
+    "item": "Baggage"
+   }
+  ],
+  "amended_from": null,
+  "departure_date": "2024-09-06",
+  "departure_time": "6:15:08",
+  "destination_airport_code": "CH3566",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket",
+  "duration_of_flight": 1422180.0,
+  "flight": "GoAir-063-09-2024-00073",
+  "flight_price": 12000.0,
+  "gate_number": "98",
+  "modified": "2024-12-28 14:55:55.755468",
+  "name": "GoAir-063-09-2024-00073-QR 557-to-CH3566-084",
+  "passenger": "9",
+  "seat": "82B",
+  "source_airport_code": "QR 557",
+  "status": "Booked",
+  "total_amount": 13099.0
+ }
+]
